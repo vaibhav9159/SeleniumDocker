@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestSearchFunc(failed)">
+    <parameter name="keyword" value="india"/>
+    <classes>
+      <class name="com.alpha.qa.test.SearchFuncTest">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="tearDown"/>
+          <include name="registrationPageTest"/>
+        </methods>
+      </class> <!-- com.alpha.qa.test.SearchFuncTest -->
+    </classes>
+  </test> <!-- TestSearchFunc(failed) -->
+</suite> <!-- Failed suite [Suite] -->
